@@ -21,12 +21,14 @@ main {
 }
 
 .topnav {
-    padding-left: 9rem;
-    width: 100vw;
-    height: 3.5rem;
-    position: fixed;
-    background-color:rgb(230, 230, 230);
-    overflow: hidden;
+	width: 100vw;
+	height: 3.5rem;
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color:#edf0f1;
+	overflow: hidden;
 }
 
 .topnav-nav {
@@ -35,68 +37,74 @@ main {
   margin: 0;
   display: flex;
   flex-direction: row;
-  justify-content: center;
   width: 100%;
 }
 
 .topnav-item {
-    height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 3.5rem;
+	width: 9rem;
 }
 
-.topnav-item .settings {
-    float: right;
+.top-settings {
+	display: none;
+	filter: grayscale(100%) opacity(1);
 }
 
-.app {
-  text-decoration: none;
+.top-settings:hover {
+	transition: 200ms ease;
+	filter: grayscale(0%) opacity(1);
+	color: white;
 }
+
+
+.logo {
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 3.5rem;
+	width: 9rem;
+	color: black;
+	text-decoration: none;
+}
+
+/* .sidenav-link i {
+	transform: rotate(0deg);
+	transition: transform (200ms);
+}
+
+.sidenav-link:hover i {
+	transform: rotate(-360deg);
+} */
 
 .sidenav {
-  position: fixed;
-  background-color: rgb(230, 230, 230);
-  transition: width 200ms ease;
-  overflow: hidden;
-}
-
+	position: fixed;
+	background-color: #edf0f1;
+	transition: width 200ms ease;
+	overflow: hidden;
+  }
+  
 .sidenav-nav {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100%;
-}
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+  }
 
 .sidenav-item {
-    width: 100%;
+	width: 100%;
   }
 
 .sidenav-item:last-child {
   margin-top: auto;
 }
-
-.logo {
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 3.5rem;
-    width: 9rem;
-    color: black;
-    text-decoration: none;
-    filter: grayscale(100%) opacity(1);
-    transition: var(--transition-speed);
-}
-
-/* .sidenav-link i {
-    transform: rotate(0deg);
-    transition: transform (200ms);
-}
-
-.sidenav-link:hover i {
-    transform: rotate(-360deg);
-} */
 
 .sidenav-link {
   display: flex;
@@ -108,15 +116,11 @@ main {
   transition: var(--transition-speed);
 }
 
-
-
 .sidenav-link:hover {
   filter: grayscale(0%) opacity(1);
   background: grey;
   color: var(--text-secondary);
 }
-
-
 
 .sidenav-link i {
   min-width: 2rem;
@@ -124,7 +128,7 @@ main {
 }
 
 .link-text {
-    margin-left: 1rem;
+	margin-left: 1rem;
 }
 
 
@@ -132,53 +136,53 @@ main {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .sidenav {
-        bottom: 0;
-        width: 100vw;
-        height: 3.5rem;
-    }
+	.sidenav {
+		bottom: 0;
+		width: 100vw;
+		height: 3.5rem;
+	}
 
-    .logo {
-        display: none;
-    }
+	.top-settings {
+		display: block;
+	}
 
-    .sidenav-item:last-child {
-        display: none;
-    }
+	.sidenav-item:last-child {
+		display: none;
+	}
 
-    .link-text {
-        display: none;
-    }
+	.link-text {
+		display: none;
+	}
 
-    .sidenav-nav {
-        flex-direction: row
-    }
+	.sidenav-nav {
+		flex-direction: row
+	}
 
-    .sidenav-link {
-        justify-content: center;
-    }
+	.sidenav-link {
+		justify-content: center;
+	}
 
-    main {
-        margin: 0;
-    }
+	main {
+		margin: 0;
+	}
 
-    
+	
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .sidenav {
-        top: 0;
-        width: 9rem;
-        height: 100%;
-    }
+	.sidenav {
+		top: 3.5rem;
+		width: 9rem;
+		height: calc(100vh - 3.5rem);
+	}
 
-    .link-text {
-        display: block;
-        margin-left: 0rem;
-    }
+	.link-text {
+		display: block;
+		margin-left: 0rem;
+	}
 
-    
+	
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -188,10 +192,10 @@ main {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    
+	
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    
+	
 }
