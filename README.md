@@ -23,3 +23,8 @@ The next section is usage, in which you instruct other people on how to use your
 * **June28: general layout is done**
 
 <img src="./development_progress/june28.png" alt="drawing" width="700"/>
+
+* **June29: homepage**:
+active element is now highlighted
+homepage is implemented. 
+homepage displays data from other places
