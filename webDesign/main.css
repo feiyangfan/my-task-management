@@ -1,0 +1,74 @@
+:root {
+  font-size: 16px;
+  font-family: 'Open Sans';
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+  --transition-speed: 200ms;
+}
+
+body {
+  color: black;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin-left: 9rem;
+  padding: 3.5rem;
+}
+
+.active {
+	background-color: rgb(196, 196, 196);
+}
+
+.home-greeting {
+  padding: 10px;
+}
+
+.greeting-text {
+	font-weight: 600;
+	font-size: 24px;
+}
+
+.home-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.home-card-item {
+  margin: 10px;
+
+  -webkit-box-shadow: 0 0 15px 1px #edf0f1;
+  -moz-box-shadow: 0 0 15px 1px #edf0f1;
+  box-shadow: 0 0 15px 1px #edf0f1;
+  border: 1px solid #edf0f1;
+  border-radius: 5px;
+
+  height: 40%;
+  width: 25%;
+  padding: 20px 20px;
+
+}
+
+
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	
+}
