@@ -46,7 +46,6 @@ c. homepage displays data from other places.
 
 d. implement greeting messages. include time, date, weather(to be finished).
 
-<img src="./development_progress/homepage_design.png" alt="drawing" width="400"/>
-<img src="./development_progress/jun28_3.png" alt="drawing" width="700"/>
+<img src="./development_progress/homepage_design.png" alt="drawing" width="300"/> <img src="./development_progress/jun28_3.png" alt="drawing" width="600"/>
 
 
