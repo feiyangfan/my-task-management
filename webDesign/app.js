@@ -1,3 +1,8 @@
+var month = new Array()
+month[0] = "January"; month[1] = "February"; month[2] = "March"; month[3] = "April";
+month[4] = "May"; month[5] = "June"; month[6] = "July"; month[7] = "August";
+month[8] = "September"; month[9] = "October"; month[10] = "November"; month[11] = "December";
+
 function currentTime() {
     var date = new Date(); /* creating object of Date class */
     var hour = date.getHours();
@@ -6,7 +11,11 @@ function currentTime() {
     hour = updateTime(hour);
     min = updateTime(min);
     sec = updateTime(sec);
-    document.getElementById("clock").innerText = hour + " : " + min + " : " + sec; /* adding time to the div */
+    var monthNow = date.getMonth();
+    var day = date.getDate();
+    day = updateTime(day);
+    document.getElementById("date").innerText = "Today is: " + month[monthNow] + " " + day + ".";
+    document.getElementById("home-clock").innerText = "Time: " + hour + " : " + min + " : " + sec + "."; /* adding time to the div */
     var t = setTimeout(function(){ currentTime() }, 1000); /* setting timer */
   }
   

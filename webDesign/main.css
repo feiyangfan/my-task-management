@@ -26,6 +26,7 @@ main {
 
 .home-greeting {
   padding: 10px;
+
 }
 
 .greeting-text {
@@ -52,6 +53,14 @@ main {
   padding: 20px 20px;
 
 }
+
+.greeting-text {
+  display: inline-block;
+  padding-right: 2px;
+  font-weight: 500;
+
+}
+
 
 
 
