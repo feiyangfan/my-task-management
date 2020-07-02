@@ -1,16 +1,22 @@
-# Project name: My First Web development project
+# Project name: myFirstWebsite
 
-# Description: 
-A description of your project follows. A good description is clear, short, and to the point. Describe the importance of your project, and what it does.
 
-# Table of Contents:
- Optionally, include a table of contents in order to allow other people to quickly navigate especially long or detailed READMEs.
+# Description/feature: 
+<p>1. homepage: display time/date/weather and todo-list/go-schedule/next-event-reminder that user made<br>
+ 2. todo-list: users can add things todo to a list, remove events when them get ticked off<br>
+ 3. go-schedule: users can search for a train line, display choosen line's schedule, includes next arrival time, depature time.<br>
+ 4. timetable: users can import time table using iso file, or add own event at a time slot
+</p>
+
+# Things I learnt:
+<p>Basic frontend: basic html/css/javascript <br>
+Advanced frontend: react.js <br>
+Backend: node.js
+general: how to use api properly, nvm, npm, etc..
+</p>
 
 # Installation: 
-Installation is the next section in an effective README. Tell other users how to install your project locally. Optionally, include a gif to make the process even more clear for other people.
-
-#Usage: 
-The next section is usage, in which you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
+open index.html in () folder to access locally or use live server to deploy on a local server
 
 # Development logs
 
@@ -48,4 +54,4 @@ d. implement greeting messages. include time, date, weather(to be finished).
 
 <img src="./development_progress/homepage_design.png" alt="drawing" width="300"/> <img src="./development_progress/jun28_3.png" alt="drawing" width="600"/>
 
-
+**July 2: Link navbar links to different pages
