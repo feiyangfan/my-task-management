@@ -42,4 +42,5 @@ d. implement greeting messages. include time, date, weather(to be finished).<br>
 
 <img src="./development_progress/homepage_design.png" alt="drawing" width="300"/> <img src="./development_progress/jun28_3.png" alt="drawing" width="700"/>
 
-**July 2: Link navbar links to different pages
+* **July 2: Link navbar links to different pages<br>
+ad
