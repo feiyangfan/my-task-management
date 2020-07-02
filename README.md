@@ -30,14 +30,11 @@ learnt today: css flexbox.<br>
 <img src="./development_progress/june28.png" alt="drawing" width="700"/>
 
 * **June 29-Jul 1: homepage**:<br>
-* learnt today: <br>
-<p> 
+learnt today: <br>
 a. how to use media in css to achieve responsive website. (changes interface according to window size)<br>
-b. how to use external javascript file to help building html
-</p>
+b. how to use external javascript file to help building html<br>
 
-
-* progress: <br>
+progress: <br>
 a. active element is now highlighted.<br>
 b. homepage is implemented. <br>
 c. homepage displays data from other places.<br>
