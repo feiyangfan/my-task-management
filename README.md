@@ -20,38 +20,29 @@ open index.html in () folder to access locally or use live server to deploy on a
 
 # Development logs
 
-* **June 27- add layout design pdf, may change later**
-
-learnt today: basic html and css knowledge.
-
+* **June 27- add layout design pdf, may change later** <br>
+learnt today: basic html and css knowledge.<br>
 <img src="./development_progress/june27_3.png" alt="1" width="400"/><img src="./development_progress/june27_4.png" alt="2" width="400"/>
-
 <img src="./development_progress/june27_1.png" alt="3" width="400"/><img src="./development_progress/june27_2.png" alt="4" width="400"/>
 
-* **June28: general layout is done**
-
-learnt today: css flexbox.
-
+* **June28: general layout is done**<br>
+learnt today: css flexbox.<br>
 <img src="./development_progress/june28.png" alt="drawing" width="700"/>
 
-* **June 29-Jul 1: homepage**:
+* **June 29-Jul 1: homepage**:<br>
+* learnt today: <br>
+<p> 
+a. how to use media in css to achieve responsive website. (changes interface according to window size)<br>
+b. how to use external javascript file to help building html
+</p>
 
-* learnt today: 
 
- a. how to use media in css to achieve responsive website. (changes interface according to window size)
- 
- b. how to use external javascript file to help building html
+* progress: <br>
+a. active element is now highlighted.<br>
+b. homepage is implemented. <br>
+c. homepage displays data from other places.<br>
+d. implement greeting messages. include time, date, weather(to be finished).<br>
 
-* progress: 
-
-a. active element is now highlighted.
-
-b. homepage is implemented. 
-
-c. homepage displays data from other places.
-
-d. implement greeting messages. include time, date, weather(to be finished).
-
-<img src="./development_progress/homepage_design.png" alt="drawing" width="300"/> <img src="./development_progress/jun28_3.png" alt="drawing" width="600"/>
+<img src="./development_progress/homepage_design.png" alt="drawing" width="300"/> <img src="./development_progress/jun28_3.png" alt="drawing" width="700"/>
 
 **July 2: Link navbar links to different pages
