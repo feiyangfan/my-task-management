@@ -25,10 +25,14 @@ The next section is usage, in which you instruct other people on how to use your
 <img src="./development_progress/june28.png" alt="drawing" width="700"/>
 
 * **June 29-Jul 1: homepage**:
-active element is now highlighted
+  
+active element is now highlighted.
+
 homepage is implemented. 
-homepage displays data from other places
-implement greeting messages. include time, date, weather(to be finished)
+
+homepage displays data from other places.
+
+implement greeting messages. include time, date, weather(to be finished).
 
 <img src="./development_progress/homepage_design.png" alt="drawing" width="400"/>
 <img src="./development_progress/jun28_3.png" alt="drawing" width="700"/>
