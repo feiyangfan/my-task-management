@@ -12,7 +12,7 @@
 <p>Basic frontend: basic html/css/javascript <br>
 Advanced frontend: react.js <br>
 Backend: node.js
-general: how to use api properly, nvm, npm, etc..
+general: how to use api properly, nvm, npm, responsive ui, interactive/motion ui
 </p>
 
 # Installation: 
