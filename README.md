@@ -33,6 +33,7 @@ learnt today: css flexbox.<br>
 learnt today: <br>
 a. how to use media in css to achieve responsive website. (changes interface according to window size)<br>
 b. how to use external javascript file to help building html<br>
+c.
 
 progress: <br>
 a. active element is now highlighted.<br>
