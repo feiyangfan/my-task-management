@@ -24,11 +24,13 @@ open index.html in () folder to access locally or use live server to deploy on a
 learnt today: basic html and css knowledge.<br>
 <img src="./development_progress/june27_3.png" alt="1" width="400"/><img src="./development_progress/june27_4.png" alt="2" width="400"/>
 <img src="./development_progress/june27_1.png" alt="3" width="400"/><img src="./development_progress/june27_2.png" alt="4" width="400"/>
+
 ---------------------------------------------------------------------------
 
 * **June28: general layout is done**<br>
 learnt today: css flexbox.<br>
 <img src="./development_progress/june28.png" alt="drawing" width="700"/>
+
 ---------------------------------------------------------------------------
 
 * **June 29-Jul 1: homepage**:<br>
@@ -44,6 +46,7 @@ c. homepage displays data from other places.<br>
 d. implement greeting messages. include time, date, weather(to be finished).<br>
 
 <img src="./development_progress/homepage_design.png" alt="drawing" width="300"/> <img src="./development_progress/jun28_3.png" alt="drawing" width="700"/>
+
 ---------------------------------------------------------------------------
 
 * **July 2-4: Link navbar links to different pages
