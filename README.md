@@ -49,7 +49,10 @@ d. implement greeting messages. include time, date, weather(to be finished).<br>
 
 ---------------------------------------------------------------------------
 
-* **July 2-4: Link navbar links to different pages
+* **July 2-4: Link navbar links to different pages <br>
+
 placeholder
-* **July 4-10: pause project, working on school stuff 
+
+* **July 4-10: pause project, working on school stuff <br>
+
 placeholder
