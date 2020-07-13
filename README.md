@@ -36,7 +36,11 @@ Design: <br>
 
 ### June28: general layout is done <br>
 **learnt today**: css flexbox (use display:flex in containters so that they changes according to other elements).<br>
-<img src="./development_progress/june28.png" alt="drawing" width="500"/>
+
+**progress:** <br>
+a. general layout is done.<br>
+b. side and top navbar is done. <br>
+<img src="./development_progress/june28.png" alt="drawing" width="300"/>
 
 ---------------------------------------------------------------------------
 
