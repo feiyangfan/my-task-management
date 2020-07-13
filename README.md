@@ -31,7 +31,6 @@ basic html and css knowledge:
 Design: <br>
 <img src="./development_progress/june27_3.png" alt="1" width="300"/>
 <img src="./development_progress/june27_1.png" alt="3" width="300"/>
-<img src="./development_progress/june27_2.png" alt="4" width="300"/>
 
 ---------------------------------------------------------------------------
 
