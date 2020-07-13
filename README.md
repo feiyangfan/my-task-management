@@ -55,7 +55,7 @@ b. homepage is implemented. <br>
 c. homepage displays data from other places.<br>
 d. implement greeting messages. include time, date, weather(to be finished).<br>
 
-<img src="./readme-assets/homepage_design.png" alt="homepage design" width="300"/> <img src="./readme-assets/jun28_3.png" alt="homepage" width="600"/>
+<img src="./readme-assets/homepage_design.png" alt="homepage design" width="300"/> <img src="./readme-assets/jun28_3.png" alt="homepage" width="500"/>
 
 ---------------------------------------------------------------------------
 
