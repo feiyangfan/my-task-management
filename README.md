@@ -1,8 +1,8 @@
-# Project name: myFirstWebsite
+# Project name: my-first-website
 
 
 # Description/feature: 
-<p>1. homepage: display time/date/weather and todo-list/go-schedule/next-event-reminder that user made<br>
+<p>1. *homepage*: display time/date/weather and todo-list/go-schedule/next-event-reminder that user made<br>
  2. todo-list: users can add things todo to a list, remove events when them get ticked off<br>
  3. go-schedule: users can search for a train line, display choosen line's schedule, includes next arrival time, depature time.<br>
  4. timetable: users can import time table using iso file, or add own event at a time slot.<br>
