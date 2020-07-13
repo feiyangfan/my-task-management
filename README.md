@@ -29,8 +29,8 @@ basic html and css knowledge:
 3. relation between css and html and how to use css in html
 
 Design: <br>
-<img src="./development_progress/june27_3.png" alt="1" width="300"/>
-<img src="./development_progress/june27_1.png" alt="3" width="300"/>
+<img src="./readme-assets/june27_3.png" alt="design1" width="300"/>
+<img src="./readme-assets/june27_1.png" alt="design2" width="300"/>
 
 ---------------------------------------------------------------------------
 
@@ -40,7 +40,7 @@ Design: <br>
 **progress:** <br>
 a. general layout is done.<br>
 b. side and top navbar is done. <br>
-<img src="./development_progress/june28.png" alt="drawing" width="300"/>
+<img src="./readme-assets/june28.png" alt="design3" width="300"/>
 
 ---------------------------------------------------------------------------
 
@@ -55,7 +55,7 @@ b. homepage is implemented. <br>
 c. homepage displays data from other places.<br>
 d. implement greeting messages. include time, date, weather(to be finished).<br>
 
-<img src="./development_progress/homepage_design.png" alt="drawing" width="300"/> <img src="./development_progress/jun28_3.png" alt="drawing" width="600"/>
+<img src="./readme-assets/homepage_design.png" alt="homepage design" width="300"/> <img src="./development_progress/jun28_3.png" alt="homepage" width="600"/>
 
 ---------------------------------------------------------------------------
 
