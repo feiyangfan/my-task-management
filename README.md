@@ -63,6 +63,6 @@ d. implement greeting messages. include time, date, weather(to be finished).<br>
 
 placeholder
 
-### July 4-12: pause project, working on school stuff <br>
+### July 4-18: pause project, working on school stuff <br>
 
 placeholder
