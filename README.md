@@ -67,4 +67,4 @@ placeholder
 
 ### July 4-18: pause project, working on school stuff <br>
 
-placeholder
+Doing school work, pausing project for a while
