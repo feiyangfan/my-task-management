@@ -68,3 +68,6 @@ placeholder
 ### July 4-18: pause project, working on school stuff <br>
 
 Doing school work, pausing project for a while
+
+### July 19-20: Todo-list frontend is half done, using react <br>
+
