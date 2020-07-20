@@ -11,7 +11,7 @@
 
 ## What I learned:
  **Basic frontend**: basic html/css/javascript <br>
- **Advanced**: react as framework <br>
+ **Advanced**: react as frontend framework <br>
  **Backend**: node.js<br>
  **Advanced**: express as framwork?<br>
  **general**: how to use api properly, nvm, npm, responsive ui, interactive/motion ui<br>
