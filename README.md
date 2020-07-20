@@ -10,10 +10,12 @@
 
 
 ## What I learned:
-1. **Basic frontend**: basic html/css/javascript <br>
-2. **Advanced frontend**: react.js <br>
-3. **Backend**: node.js
-4. **general**: how to use api properly, nvm, npm, responsive ui, interactive/motion ui
+ **Basic frontend**: basic html/css/javascript <br>
+ **Advanced**: react as framework <br>
+ **Backend**: node.js<br>
+ **Advanced**: express as framwork?<br>
+ **general**: how to use api properly, nvm, npm, responsive ui, interactive/motion ui<br>
+Backend is responsidble for data related, like data validation, storage, access<br>
 
 
 ## Installation: 
@@ -63,6 +65,6 @@ d. implement greeting messages. include time, date, weather(to be finished).<br>
 
 placeholder
 
-### July 4-12: pause project, working on school stuff <br>
+### July 4-18: pause project, working on school stuff <br>
 
-placeholder
+Doing school work, pausing project for a while
