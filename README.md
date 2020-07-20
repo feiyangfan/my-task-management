@@ -10,10 +10,10 @@
 
 
 ## What I learned:
- **Basic frontend**: basic html/css/javascript <br>
- **Advanced**: react as frontend framework <br>
- **Backend**: node.js<br>
- **Advanced**: express as framwork?<br>
+ **Basic frontend**: basic **html/css/javascript** <br>
+ **Advanced**: **react** as **frontend framework** <br>
+ **Backend**: **node.js**<br>
+ **Advanced**: **express** as **backend framwork**<br>
  **general**: how to use api properly, nvm, npm, responsive ui, interactive/motion ui<br>
 Backend is responsidble for data related, like data validation, storage, access<br>
 
