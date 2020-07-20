@@ -2,9 +2,9 @@
 
 
 ## Feature: 
-1. **homepage**: display time/date/weather and todo-list/go-schedule/next-event-reminder that user made<br>
- 2. **todo-list**: users can add things todo to a list, remove events when them get ticked off<br>
- 3. **go-schedule**: users can search for a train line, display choosen line's schedule, includes next arrival time, depature time.<br>
+1. **homepage**: display current user name, current time/date/weather, and todo-list/go-schedule/next-event-reminder card that user made<br>
+ 2. **todo-list**: users can create multiple todo lists, add/remove/complete events, edit contents, they are able to access events even after refresh page(store in db)<br>
+ 3. **go-schedule**: users can search for a train line, display choosen line's schedule, includes next arrival time, depature time<br>
  4. **timetable**: users can import time table using iso file, or add own event at a time slot.<br>
  5. **settings**: users are able to change theme(maybe?)
 
