@@ -63,9 +63,10 @@ d. implement greeting messages. include time, date, weather(to be finished).<br>
 
 placeholder
 
-### July 4-18: pause project, working on school stuff <br>
+### July 4-18: pause project, working on school work <br>
 
 Doing school work, pausing project for a while
 
-### July 19-20: Todo-list frontend is half done, using react <br>
+### July 19-24: Todo-list frontend is half done, using react <br>
 
+### July 25-31: pause project, working on school work <br>
