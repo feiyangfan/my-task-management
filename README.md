@@ -1,7 +1,7 @@
-## Project name: my-first-website
+## Project: my-first-website
 
 
-## Feature: 
+## Features: 
 1. **homepage**: display current user name, current time/date/weather, and todo-list/go-schedule/next-event-reminder card that user made<br>
  2. **todo-list**: users can create multiple todo lists, add/remove/complete events, edit contents, they are able to access events even after refresh page(store in db)<br>
  3. **go-schedule**: users can search for a train line, display choosen line's schedule, includes next arrival time, depature time<br>
