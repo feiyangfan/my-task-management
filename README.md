@@ -69,4 +69,4 @@ Doing school work, pausing project for a while
 
 ### July 19-24: Todo-list frontend is half done, using react <br>
 
-### July 25-31: pause project, working on school work <br>
+### July 25- Aug 11: pause project, working on school work <br>
