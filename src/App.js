@@ -1,31 +1,20 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 import Nav from "./components/Nav";
-import Tweets from "./components/Tweets";
 
 function App() {
   //Write Javascript code here
-  const [counter, setCounter] = useState(0); //useState return a data and a update function
-  const [toggle, setToggle] = useState(false);
-
-  const incrementCounter = () => {
-    setCounter(counter + 1); //we use update function here
-    console.log(counter);
-  };
-
-  const toggler = () => {
-    setToggle((prev) => !prev);
-  };
 
   return (
     <div className="App">
-      <h1 className={toggle ? "active" : ""}>Hello React</h1>
-      <h2>counter = {counter}</h2>
-      <button onClick={incrementCounter}>Click</button>
-      <button onClick={toggler}>Toggle</button>
-      <div className="home">
-        <Nav toggle={toggle} />
-        <Tweets num={counter} setToggle={toggler} />
+      <div className="navbar-div">
+        <Nav></Nav>
+      </div>
+      <div className="main">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+        amet accusamus, nisi iure voluptatibus quasi illum libero doloremque
+        voluptates sint soluta perferendis maiores sit! Expedita unde placeat
+        nemo deleniti itaque.
       </div>
     </div>
   );
