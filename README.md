@@ -25,6 +25,7 @@ This is a website I am trying to make, I have no prior web development knowledge
 
 ## Development logs
 
+### Frontend  
 **Aug 12:**
 
 1. Move old basic website into a seperate folder, re-initialize all website using **react**.
@@ -32,7 +33,12 @@ This is a website I am trying to make, I have no prior web development knowledge
 ---
 **Aug 13:**  
 
-1. Partialy finished top nav bar, currently have logo on the left, main menus on the middle and about me on the right. Hover effect is added
+1. Partialy finished top nav bar, currently have logo on the left, main menus on the middle, and github link, about me on the right. Hover effect is added
 2. Need to implement: active effect.
 
 ---
+**Aug 24-26**
+
+1. Finished the top nav bar, active effect is done  
+2. Finished the sub nav bar, add a button on the right to add new item based on what page the brower is currently on  
+3. Started working on todo and home  
