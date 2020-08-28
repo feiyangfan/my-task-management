@@ -1,5 +1,9 @@
 ### Frontend for my-website
 
+### Three parts:
+1. Homepage
+2. Todo list
+3. Timetable
 
 ### Learned from develop frontend 
 1. **prop**: used to pass data between components, but can only pass down data
