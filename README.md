@@ -1,11 +1,11 @@
 ## Project: my website
 
-This is a simple website app I am trying to make. I will be building frontend, backend, and a datebase for it. I have no prior web development knowledge and will be learning and record useful things I learned as I am making the website.
+This is a simple website app I am trying to make. I will be building frontend, backend, and a datebase for it. Also try to deploye the website. I have no prior web development knowledge and will be learning and record useful things I learned as I am making the website.
 
 
 ## Features
 
-1. Todo list: The user can add, delete, edit an event. The user can also create new todo lists, and add events to them.
+1. Todo list: The user can add, delete, name/rename a todo list, also add, delete, and edit an event from a todo list. They can create multiple todo lists and each of them has multiple todo event.
 2. Timetable: A timetable that the user can add new events at different timeslots, edit added events, and delete unwanted events.
 3. Homepage: The homepage will display current time, date, and weather at the top. Also several display cards that display information from todo list and timetable.
 4. Maybe more features to be added in the future.
