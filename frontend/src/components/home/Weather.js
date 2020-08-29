@@ -54,6 +54,7 @@ const Weather = () => {
     }
   };
 
+  // TODO: use browser's geo location and add what happens if its undefined.
   return (
     <div className="weather">
       <div className="weather-card">
