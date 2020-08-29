@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Nav from "./components/Nav";
 import SubNav from "./components/SubNav";
+import Home from "./components/home/Home";
 
 function App() {
   //Write Javascript code here
@@ -20,6 +21,7 @@ function App() {
         voluptates sint soluta perferendis maiores sit! Expedita unde placeat
         nemo deleniti itaque.
       </div>
+      <Home></Home>
     </div>
   );
 }

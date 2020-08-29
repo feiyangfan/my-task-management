@@ -1,0 +1,36 @@
+.weather-card {
+  border-bottom: 2px sold aqua;
+}
+
+.location-box .location {
+  color: #000000;
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+}
+
+.location-box .date {
+  color: #000000;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+}
+
+.weather-box {
+  text-align: center;
+}
+
+.weather-box .temp {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  color: #000000;
+  font-size: 102px;
+  text-align: center;
+}
+
+.weather-box .weather {
+  color: #000000;
+  font-size: 48px;
+  font-weight: 700;
+}

@@ -1,0 +1,8 @@
+.home {
+  display: flex;
+  flex-direction: row;
+}
+
+.home-card {
+  border: 1px solid red;
+}
