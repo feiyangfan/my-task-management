@@ -29,7 +29,7 @@ const Nav = () => {
       <div className="nav-item">
         <div className="nav-right">
           <div className="right-link">
-            <a href="">Github</a>
+            <a href="https://github.com/feiyangfan">Github</a>
           </div>
 
           <div className="right-link">
