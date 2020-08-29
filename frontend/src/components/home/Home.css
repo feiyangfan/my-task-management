@@ -1,8 +1,11 @@
 .home {
+  padding: 2rem 2rem;
   display: flex;
   flex-direction: row;
 }
 
 .home-card {
-  border: 1px solid red;
+  border-radius: 8px 8px 8px 8px;
+  border: 1px solid rgba(220, 220, 220, 0.7);
+  background-color: rgba(220, 220, 220, 0.3);
 }
