@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import Card from "../Card";
+import React from "react";
 import Weather from "./Weather";
 import "./Home.css";
 
