@@ -1,13 +1,16 @@
 import React from "react";
 import Weather from "./Weather";
 import "./Home.css";
+import Card from "../Card";
 
 const Home = () => {
   return (
     <div className="home">
-      <div className="home-card">
-        <Weather />
-      </div>
+      <Card content={Weather}></Card>
+
+      <div className="home-card"></div>
+
+      <div className="home-card"></div>
     </div>
   );
 };
