@@ -1,9 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
+import "./Card.css";
 
-const Card = () => {
+const Card = (props) => {
   return (
     <div className="card">
-      <div></div>
+      <props.content></props.content>
     </div>
   );
 };
