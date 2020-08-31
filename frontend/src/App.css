@@ -1,3 +1,33 @@
 .main {
   padding: 1.5rem 1.5rem;
 }
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  fill: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: none;
+  border: none;
+  padding: 0.2rem;
+  float: right;
+  outline: none;
+}
+
+button:hover {
+  fill: rgba(0, 0, 0, 1);
+  color: rgba(0, 0, 0, 1);
+}
+
+.plus {
+  height: 12px;
+  width: 12px;
+  padding-right: 0.2rem;
+}

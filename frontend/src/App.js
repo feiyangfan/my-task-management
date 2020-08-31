@@ -3,6 +3,7 @@ import "./App.css";
 import Nav from "./components/Nav";
 import SubNav from "./components/SubNav";
 import Home from "./components/home/Home";
+import TodoPage from "./components/todo/TodoPage";
 
 function App() {
   //Write Javascript code here
@@ -15,13 +16,14 @@ function App() {
       <div className="sub-nav">
         <SubNav></SubNav>
       </div>
-      <div className="main">
+      {/* <div className="main">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
         amet accusamus, nisi iure voluptatibus quasi illum libero doloremque
         voluptates sint soluta perferendis maiores sit! Expedita unde placeat
         nemo deleniti itaque.
       </div>
-      <Home></Home>
+      <Home></Home> */}
+      <TodoPage></TodoPage>
     </div>
   );
 }
