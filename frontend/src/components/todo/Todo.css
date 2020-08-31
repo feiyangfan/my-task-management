@@ -19,5 +19,11 @@
 }
 
 .todo-menu {
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+.delete-btn {
   float: right;
 }

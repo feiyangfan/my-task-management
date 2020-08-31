@@ -7,6 +7,7 @@ import TodoList from "./TodoList";
 const TodoCard = () => {
   const [inputText, setInputText] = useState("");
   const [todos, setTodos] = useState([]);
+  const [listname, setListname] = useState("");
 
   return (
     <div className="list-card">
@@ -16,7 +17,7 @@ const TodoCard = () => {
           {/* <button className="card-add">
             <Plus className="plus" />
           </button> */}
-          <button className="card-edit">
+          <button className="card-edit" onClick={setListname}>
             <Plus className="plus" />
           </button>
           <button className="card-delete">
@@ -31,7 +32,7 @@ const TodoCard = () => {
         setTodos={setTodos}
       />
       <div className="list-content">
-        <TodoList todos={todos} />
+        <TodoList todos={todos} setTodos={setTodos} />
       </div>
     </div>
   );
