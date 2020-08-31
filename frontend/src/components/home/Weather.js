@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Weather.css";
 const api = {
-  key: "7a4e858384348cc7ea7327039469680f",
+  key: "f358ffff8fda5bf3cdf2d675caabf95f",
   base: "https://api.openweathermap.org/data/2.5/",
 };
 
@@ -53,6 +53,31 @@ const Weather = () => {
         });
     }
   };
+
+  // const initWeather = () => {
+  //   if (navigator.geolocation) {
+  //     navigator.geolocation.getCurrentPosition(function(position) {
+  //       fetch(`${api.base}weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&units=metric&APPID=${api.key}`)
+  //       .then((res) => res.json)
+  //       .then((result) => {
+  //         setWeather(result)
+  //       });
+  //     }
+  //   } else {}
+  // };
+
+  const initWeather = () => {
+    fetch(`${api.base}weather?q=toronto&units=metric&APPID=${api.key}`)
+      .then((res) => res.json())
+      .then((result) => {
+        setWeather(result);
+        console.log(result);
+      });
+  };
+
+  useEffect(() => {
+    console.log(1);
+  });
 
   // TODO: use browser's geo location and add what happens if its undefined.
   return (
