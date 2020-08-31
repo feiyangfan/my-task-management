@@ -1,0 +1,7 @@
+.todo-page {
+  flex-grow: 1;
+  display: flex;
+  padding-left: 8px;
+  padding-right: 8px;
+  flex-direction: column;
+}
