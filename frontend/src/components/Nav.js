@@ -13,15 +13,13 @@ const Nav = () => {
         <div className="nav-mid">
           <ul>
             <li>
-              <a href="#Home" onClick={console.log(1)}>
-                Home
-              </a>
+              <a href="/Home">Home</a>
             </li>
             <li>
-              <a href="#Todo">Todo</a>
+              <a href="/Todo">Todo</a>
             </li>
             <li>
-              <a href="#Time">Time</a>
+              <a href="/Time">Time</a>
             </li>
           </ul>
         </div>
