@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Weather.css";
 const api = {
-  key: "f358ffff8fda5bf3cdf2d675caabf95f",
+  key: "ec9bb1eaae55cb44b0ecbaae5c4a7280",
   base: "https://api.openweathermap.org/data/2.5/",
 };
 
@@ -76,8 +76,14 @@ const Weather = () => {
   };
 
   useEffect(() => {
-    console.log(1);
-  });
+    let count = 0;
+    if (count == 0) {
+      initWeather();
+      count++;
+    } else {
+      count++;
+    }
+  }, []);
 
   // TODO: use browser's geo location and add what happens if its undefined.
   return (
