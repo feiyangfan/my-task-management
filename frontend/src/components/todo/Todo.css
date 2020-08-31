@@ -12,6 +12,10 @@
   margin-bottom: 4px;
 }
 
+.todo:hover {
+  box-shadow: 1px 1px 1px 1px rgba(220, 220, 220, 1);
+}
+
 .todo-item {
   width: 80%;
   flex-grow: 1;
