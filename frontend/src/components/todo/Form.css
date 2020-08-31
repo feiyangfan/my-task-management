@@ -9,6 +9,10 @@ form {
   border-radius: 4px;
 }
 
+form:hover {
+  box-shadow: 1px 1px 1px 1px rgba(220, 220, 220, 1);
+}
+
 input {
   padding-left: 8px;
   height: 100%;

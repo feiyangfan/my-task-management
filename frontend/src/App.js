@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import Nav from "./components/Nav";
-import SubNav from "./components/SubNav";
 import Home from "./components/home/Home";
 import TodoPage from "./components/todo/TodoPage";
 
@@ -12,9 +11,6 @@ function App() {
     <div className="App">
       <div className="navbar-div">
         <Nav></Nav>
-      </div>
-      <div className="sub-nav">
-        <SubNav></SubNav>
       </div>
       {/* <div className="main">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
