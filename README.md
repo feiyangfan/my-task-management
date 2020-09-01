@@ -50,4 +50,10 @@ to be decided
 * **Aug 30-31**:  
 	1. Finished todo card system, the user can add todo cards.
 	2. Finished todo list, the user can add new todos in each todo card.
-	3. Add icons and add licences.txt 
+	3. Add icons and add licences.txt  
+
+**Demo:**
+![demo](./readme-assets/todo.gif)
+
+---
+* **Spet 1**:  
