@@ -6,9 +6,12 @@
 3. Timetable
 
 ### Learned from develop frontend 
-1. **prop**: used to pass data between components, but can only pass down data
+
+2. Use **{js}** to use javascript in jsx
+3. **array.map()** to map over elements and push out unique items, use **...** to copy over original array.
+4. Css flexbox 
+6. **const [A, setA] = useState(type)** is one of the most important things in react.
+7.  **prop**: used to pass data between components, but can only pass down data
 2. **state**: components will react and rerender based on **state**. **state** is dependent on components and can also only be passed down via **props**
-3. simple way to know what can. 
-2. Use {} to use javascript in jsx
-3. Use array.map() to map over elements and push out unique items
-4. Css flexbox is powerful and useful!
+6. **useEffect(() => {},[])** can be used to render/use components/functions on first load.
+7. **uuid** package to add unique id to items
