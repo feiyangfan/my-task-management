@@ -1,10 +1,9 @@
 ## Project: my website
 
-This is a simple website app I am trying to make. I will be building frontend, backend, and a datebase for it. Also try to deploye the website. I have no prior web development knowledge and will be learning and record useful things I learned as I am making the website.
+This is a simple website app I am trying to make. I will be building frontend, backend, and a datebase for it. Also try to deploy the website with a free host. I have no prior web development experiences and will be learning and recording useful things that I learned along the way.
 
 
 ## Features
-
 
 1. **Homepage**: The homepage will display current time, date, and weather at the top. Also several display cards that display information from todo list and timetable.
 2. **Weather card**: The app will detect user's geolocation(given permission), and display current weather and date at user's location. The user can also search for weather at other cities. 
@@ -12,7 +11,7 @@ This is a simple website app I am trying to make. I will be building frontend, b
 4. **Timetable**: A timetable that the user can add new events at different timeslots, edit added events, and delete unwanted events.
 
 ## How to use
-
+to be decided
 
 
 ## What I learned
