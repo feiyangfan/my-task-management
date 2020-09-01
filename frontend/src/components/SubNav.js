@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./SubNav.css";
 import { ReactComponent as Plus } from "../images/plus.svg";
+
 import { Modal } from "@material-ui/core";
 
 const SubNav = ({

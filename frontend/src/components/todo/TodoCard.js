@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import Form from "./Form";
 import "./TodoCard.css";
-import { ReactComponent as Plus } from "../../images/plus.svg";
 import TodoList from "./TodoList";
+
+import { ReactComponent as Delete } from "../../images/trash.svg";
+
+import { ReactComponent as Edit } from "../../images/edit.svg";
 
 const TodoCard = ({
   cardName,
@@ -24,10 +27,10 @@ const TodoCard = ({
         <div className="card-name">{cardName}</div>
         <div className="card-menu">
           <button className="card-edit" onClick={setListName}>
-            <Plus className="plus" />
+            <Edit className="edit" />
           </button>
           <button className="card-delete" onClick={deleteCardHandler}>
-            <Plus className="plus" />
+            <Delete className="trash" />
           </button>
         </div>
       </div>

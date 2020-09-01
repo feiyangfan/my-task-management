@@ -51,4 +51,4 @@ This is a simple website app I am trying to make. I will be building frontend, b
 * **Aug 30-31**:  
 	1. Finished todo card system, the user can add todo cards.
 	2. Finished todo list, the user can add new todos in each todo card.
-	3. Need to do: change icons 
+	3. Add icons and add licences.txt 

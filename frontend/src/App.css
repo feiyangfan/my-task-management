@@ -9,8 +9,8 @@
 }
 
 button {
-  fill: rgba(0, 0, 0, 0.7);
-  color: rgba(0, 0, 0, 0.7);
+  fill: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -27,7 +27,25 @@ button:hover {
 }
 
 .plus {
-  height: 12px;
-  width: 12px;
+  height: 16px;
+  width: 16px;
+  padding-right: 0.2rem;
+}
+
+.trash {
+  height: 16px;
+  width: 16px;
+  padding-right: 0.2rem;
+}
+
+.edit {
+  height: 16px;
+  width: 16px;
+  padding-right: 0.2rem;
+}
+
+.check {
+  height: 16px;
+  width: 16px;
   padding-right: 0.2rem;
 }
