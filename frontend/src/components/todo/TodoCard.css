@@ -1,6 +1,6 @@
 .list-card {
-  height: 100%;
-  flex-grow: 1;
+  min-height: 100%;
+
   margin: 8px;
   padding: 8px;
   margin-bottom: 1rem;
@@ -18,4 +18,12 @@
   width: 100%;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.card-menu {
+  display: flex;
+}
+
+.card-delete {
+  float: right;
 }
