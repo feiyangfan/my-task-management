@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import axios from "axios";
 import "./Weather.css";
 const api = {
   key: "ec9bb1eaae55cb44b0ecbaae5c4a7280",
