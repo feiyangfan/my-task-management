@@ -36,18 +36,18 @@ to be decided
 	2. Need to implement: active effect.
 
 ---
-* **Aug 24-26**:  
+* **Aug 24 - 26**:  
 	1. Finished the top nav bar, active effect is done  
 	2. Finished the sub nav bar, add a button on the right to add new item based on what page the brower is currently on  
 	3. Started working on todo and home  
 
 ---
-* **Aug 27-29**:  
+* **Aug 27 - 29**:  
 	1. Finished Homepage card system
 	2. Added **wheather** feature. The app will detect user's geolocation(given permission), and display current weather and date. The user can also search for weather at other cities. 
 
 ---
-* **Aug 30-31**:  
+* **Aug 30 - 31**:  
 	1. Finished todo card system, the user can add todo cards.
 	2. Finished todo list, the user can add new todos in each todo card.
 	3. Add icons and add licences.txt  
@@ -56,4 +56,6 @@ to be decided
 ![demo](./readme-assets/todo.gif)
 
 ---
-* **Spet 1**:  
+* **Spet 1 - 3**:  
+	1. Learning backend.
+	2. Start to move weather API call into backend and hide the API key in the backend environment varibale file.
