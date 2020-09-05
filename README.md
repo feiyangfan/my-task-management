@@ -55,7 +55,8 @@ to be decided
 	3. Add icons and add licences.txt  
 
 **Demo:**
-![demo](./readme-assets/todo.gif)
+<!--![demo](./readme-assets/todo.gif)-->
+<img src="./readme-assets/todo.gif"	height="300px" alt="todo list demo">
 
 ---
 * **Spet 1 - 5**:  
