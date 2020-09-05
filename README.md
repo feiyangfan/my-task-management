@@ -49,7 +49,7 @@ to be decided
 	2. Added **wheather** feature. The app will detect user's geolocation(given permission), and display current weather and date when first visiting the website. The user can later also search for weather at other locations. 
 
 	**Weather demo**:  
-<img src="./readme-assets/weather_demo.gif"	height="300px" alt="todo list demo">
+	<img src="./readme-assets/weather_demo.gif"	height="300px" alt="todo list demo">
 
 ---
 * **Aug 30 - 31**:  
@@ -58,7 +58,7 @@ to be decided
 	3. Add icons and add licences.txt  
 
 	**Todo-list demo:**  
-<img src="./readme-assets/todo.gif"	height="300px" alt="todo list demo">
+	<img src="./readme-assets/todo.gif"	height="300px" alt="todo list demo">
 
 ---
 * **Spet 1 - 5**:  
