@@ -46,7 +46,10 @@ to be decided
 ---
 * **Aug 27 - 29**:  
 	1. Finished Homepage card system
-	2. Added **wheather** feature. The app will detect user's geolocation(given permission), and display current weather and date. The user can also search for weather at other cities. 
+	2. Added **wheather** feature. The app will detect user's geolocation(given permission), and display current weather and date when first visiting the website. The user can later also search for weather at other locations. 
+
+	**Weather demo**:  
+<img src="./readme-assets/weather_demo.gif"	height="300px" alt="todo list demo">
 
 ---
 * **Aug 30 - 31**:  
@@ -54,8 +57,7 @@ to be decided
 	2. Finished todo list, the user can add new todos in each todo card.
 	3. Add icons and add licences.txt  
 
-**Demo:**
-<!--![demo](./readme-assets/todo.gif)-->
+	**Todo-list demo:**  
 <img src="./readme-assets/todo.gif"	height="300px" alt="todo list demo">
 
 ---
