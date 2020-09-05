@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./Weather.css";
-const api = {
-  key: "ec9bb1eaae55cb44b0ecbaae5c4a7280",
-  base: "https://api.openweathermap.org/data/2.5/",
-};
 
 const Weather = () => {
   const dateBuilder = (d) => {
@@ -44,24 +40,21 @@ const Weather = () => {
   const [query, setQuery] = useState("");
 
   const search = (evt) => {
-    if (evt.key === "Enter") {
-      fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
-        .then((res) => res.json())
-        .then((result) => {
-          setWeather(result);
-          setQuery("");
-          console.log(result);
+    if (evt.key === "Enter" && evt.target.value != "") {
+      axios
+        .post("/weatherAPI", { query: evt.target.value })
+        .then(function (response) {
+          setWeather(response.data);
+          console.log(response.data);
         });
     }
   };
 
   const initWeather = () => {
-    fetch(`${api.base}weather?q=toronto&units=metric&APPID=${api.key}`)
-      .then((res) => res.json())
-      .then((result) => {
-        setWeather(result);
-        console.log(result);
-      });
+    axios.post("/weatherAPI", { query: "toronto" }).then(function (response) {
+      setWeather(response.data);
+      console.log(response.data);
+    });
   };
 
   useEffect(() => {

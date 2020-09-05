@@ -17,9 +17,9 @@ function App() {
         amet accusamus, nisi iure voluptatibus quasi illum libero doloremque
         voluptates sint soluta perferendis maiores sit! Expedita unde placeat
         nemo deleniti itaque.
-      </div>
-      <Home></Home> */}
-      <TodoPage></TodoPage>
+      </div>*/}
+      <Home></Home>
+      {/* <TodoPage></TodoPage> */}
     </div>
   );
 }
