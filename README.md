@@ -56,6 +56,7 @@ to be decided
 ![demo](./readme-assets/todo.gif)
 
 ---
-* **Spet 1 - 3**:  
+* **Spet 1 - 5**:  
 	1. Learning backend.
-	2. Start to move weather API call into backend and hide the API key in the backend environment varibale file.
+	2. Move weather API call into backend and hide the API key in the backend environment varibale file.
+	3. Change Weather.js in frontend so that it uses POST method and send query info to backend and call weather API there, instead of using query info and fetch weather API in the frontend.
