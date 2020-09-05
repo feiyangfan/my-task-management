@@ -45,6 +45,7 @@ const Weather = () => {
         .post("/weatherAPI", { query: evt.target.value })
         .then(function (response) {
           setWeather(response.data);
+          setQuery("");
           console.log(response.data);
         });
     }
