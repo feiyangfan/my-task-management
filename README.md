@@ -65,3 +65,8 @@ to be decided
 	1. Learning backend.
 	2. Move weather API call into backend and hide the API key in the backend environment varibale file.
 	3. Change Weather.js in frontend so that it uses POST method and send query info to backend and call weather API there, instead of using query info and fetch weather API in the frontend.
+
+---  
+* **Spet 6 - 8**:  
+	1. Learning how to connect to a database that can authorize users infomation and input
+	2. Learning how to let user upload a file.(used in timetable feature)
