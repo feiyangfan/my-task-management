@@ -65,3 +65,4 @@ to be decided
 	1. Learning backend.
 	2. Move weather API call into backend and hide the API key in the backend environment varibale file.
 	3. Change Weather.js in frontend so that it uses POST method and send query info to backend and call weather API there, instead of using query info and fetch weather API in the frontend.
+	4. Started to learn how to connect datebase to the website so that the todo list can be saved and won't disappear upon page refresh
