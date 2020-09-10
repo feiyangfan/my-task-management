@@ -40,7 +40,7 @@ const Weather = () => {
   const [query, setQuery] = useState("");
 
   const search = (evt) => {
-    if (evt.key === "Enter" && evt.target.value != "") {
+    if (evt.key === "Enter" && evt.target.value !== "") {
       axios
         .post("/weatherAPI", { query: evt.target.value })
         .then(function (response) {

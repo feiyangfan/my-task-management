@@ -22,7 +22,7 @@ const Todo = () => {
     <div className="todo-page">
       <div className="todo-nav">
         <SubNav
-          name="card"
+          name="todo"
           addCardHandler={addCardHandler}
           listName={listName}
           todoCards={todoCards}

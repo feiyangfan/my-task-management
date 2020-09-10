@@ -1,5 +1,14 @@
-.home {
-  padding: 2rem 2rem;
+.homepage {
   display: flex;
-  flex-wrap: wrap;
+
+  flex-direction: column;
+}
+
+.home-subnav {
+  padding-right: 8px;
+}
+
+.home-main-display {
+  padding-left: 16px;
+  padding-right: 16px;
 }

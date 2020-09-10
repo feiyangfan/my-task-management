@@ -1,4 +1,11 @@
 import React from "react";
+import {
+  BrowserRouter as Router,
+  Route,
+  NavLink,
+  Switch,
+} from "react-router-dom";
+
 import "./Nav.css";
 
 const Nav = () => {
@@ -9,27 +16,28 @@ const Nav = () => {
           <h4>Website</h4>
         </div>
       </div>
+
       <div className="nav-item">
         <div className="nav-mid">
           <ul>
             <li>
-              <a href="/Home">Home</a>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <a href="/Todo">Todo</a>
+              <NavLink to="/todo">Todo</NavLink>
             </li>
             <li>
-              <a href="/Time">Time</a>
+              <NavLink to="/timetable">Timetable</NavLink>
             </li>
           </ul>
         </div>
       </div>
+
       <div className="nav-item">
         <div className="nav-right">
           <div className="right-link">
             <a href="https://github.com/feiyangfan">Github</a>
           </div>
-
           <div className="right-link">
             <a href="#About me">About me</a>
           </div>
