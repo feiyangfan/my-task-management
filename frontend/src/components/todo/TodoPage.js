@@ -29,6 +29,7 @@ const Todo = () => {
           listNameHandler={listNameHandler}
         />
       </div>
+
       <ul className="todo-card-list">
         {todoCards.map((todoCard) => (
           <TodoCard
