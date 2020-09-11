@@ -39,7 +39,7 @@ const Nav = () => {
             <a href="https://github.com/feiyangfan">Github</a>
           </div>
           <div className="right-link">
-            <a href="#About me">About me</a>
+            <a href="https://feiyangfan.github.io/about-me/">About me</a>
           </div>
         </div>
       </div>
