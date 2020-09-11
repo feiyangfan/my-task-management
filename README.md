@@ -1,6 +1,7 @@
 ## Project: my website
 
-This is a simple website app I am trying to make. I will be building frontend, backend, and a datebase for it. Also try to deploy the website with a free host. I have no prior web development experiences and will be learning and recording useful things that I learned along the way.
+This is a simple website app I am trying to make.  I was inspired to make this website because I feel like I need to use multiple apps just for planning out my days, which is a bit inefficient.  
+I will be building frontend, backend, and a datebase for it. Also try to deploy the website with a free host. I have no prior web development experiences and will be learning and recording useful things that I learned along the way.
 
 
 ## Features
