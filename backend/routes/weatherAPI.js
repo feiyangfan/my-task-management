@@ -1,7 +1,7 @@
 var express = require("express");
 var request = require("request");
 var router = express.Router();
-const envFile = require("dotenv").config();
+require("dotenv").config();
 const WEATHER_API_KEY = process.env.WEATHER_API_KEY;
 
 /* GET users listing. */
