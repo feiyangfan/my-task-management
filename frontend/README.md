@@ -5,6 +5,10 @@
 2. Todo list
 3. Timetable
 
+### Libraries, frameworks, and packages used:
+1. React
+2. Material UI
+
 ### Learned from develop frontend 
 
 2. Use **{js}** to use javascript in jsx
