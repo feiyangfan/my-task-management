@@ -1,7 +1,7 @@
-## Project: my website
+## Project: my daily planner
 
-This is a simple website app I am trying to make.  I was inspired to make this website because I feel like I need to use multiple apps just for planning out my days, which is a bit inefficient.  
-I will be building frontend, backend, and a datebase for it. Also try to deploy the website with a free host. I have no prior web development experiences and will be learning and recording useful things that I learned along the way.
+This is a simple web daily planner app I am trying to make.  I was inspired to make this app because I feel like I need to use multiple apps just for planning out my days, which is a bit inefficient.  
+I will be building frontend with react, backend with express, and connect the app to mongoDB datebase. Also try to deploy the website using a free host. I have no prior web development experiences and will be learning and recording useful things that I learned along the way.
 
 
 ## Features
@@ -74,14 +74,18 @@ to be decided
 
 ---  
 * **Sept 9**:
-	1. Fishied navigation system by using **react-router**
+	1. Finished navigation system by using **react-router**
 	2. Add "add card" to homepage so that the user can add new information card.
 	
 	**navigation demo:**  
 	<img src="./readme-assets/page-change.gif"	height="300px" alt="page change demo">
 
----  
+--- 
 * **Sept 10 - 16**:
 	1. Create backend with express, cors, mongoose, passport.js, etc.. (detail list see package.json)
-	2. 
-	
+	2. Connect backend to mongoDB using mongoose
+	3. Create User model
+	4. Create index, weather, auth routes
+	5. User can now log in with google account, this is accomplished by using passport.js
+	6. Save google id and session id into database for future use.
+	7. Create new User model when a new user logs in with google account, and save the model into mongoDB database
