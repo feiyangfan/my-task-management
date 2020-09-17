@@ -79,3 +79,9 @@ to be decided
 	
 	**navigation demo:**  
 	<img src="./readme-assets/page-change.gif"	height="300px" alt="page change demo">
+
+---  
+* **Sept 10 - 16**:
+	1. Create backend with express, cors, mongoose, passport.js, etc.. (detail list see package.json)
+	2. 
+	
