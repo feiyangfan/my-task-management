@@ -1,4 +1,4 @@
-### Frontend for my-website
+### Frontend for my-daily-planner
 
 ### Three parts:
 1. Homepage
@@ -8,6 +8,10 @@
 ### Libraries, frameworks, and packages used:
 1. React
 2. Material UI
+3. UUID
+4. axios
+5. dotenv
+6. react-router
 
 ### Learned from develop frontend 
 
@@ -19,3 +23,6 @@
 2. **state**: components will react and rerender based on **state**. **state** is dependent on components and can also only be passed down via **props**
 6. **useEffect(() => {},[])** can be used to render/use components/functions on first load.
 7. **uuid** package to add unique id to items
+8. Make sure the user readbility is good
+9. Make use of react-based UI frameworks such as @material-ui is good because it decreases the time spending on making components and make develop much more efficient.
+10. Make use of previously designed components whenever possible, this significally decreases development time and increase efficiency.

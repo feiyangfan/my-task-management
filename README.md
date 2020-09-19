@@ -12,17 +12,13 @@ I will be building frontend with react, backend with express, and connect the ap
 4. **Timetable**: A timetable that the user can add new events at different timeslots, edit added events, and delete unwanted events.
 
 ## How to use
-to be decided
+Frontend is deployed on netlify, [link](https://ffy-my-daily-planner.netlify.app/), currently being working on so the link might not work  
+Backend api is deployed on heroku, [link]( https://ffy-my-daily-planner-backend.herokuapp.com/), currently does not have a view engine, purely served as an api.
+
 
 
 ## What I learned
-* **Frontend**:
-	1. dont save any sensitive infomation in the frontend because users can access them.
-	2. **prop**: used to pass data between components, but can only pass down
-	3. **state**: components will react and rerender based on **state**. **state** is dependent on components and can also only be passed down via **props**
-	4. Use {} to add javascript code in jsx
-	5. Use array.map() to map over elements and push out unique items
-	6. Css flexbox 
+
 
 * **BACKEND**:  
 	1. save important keys and other infomation in .env file and using by installing dotenv package and call require("dotenv").config().
