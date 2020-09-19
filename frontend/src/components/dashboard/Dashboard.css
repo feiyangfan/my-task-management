@@ -1,14 +1,14 @@
-.homepage {
+.dashboard {
   display: flex;
 
   flex-direction: column;
 }
 
-.home-subnav {
+.dashboard-subnav {
   padding-right: 8px;
 }
 
-.home-main-display {
+.dashboard-main-display {
   padding-left: 16px;
   padding-right: 16px;
 }

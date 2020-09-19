@@ -8,6 +8,10 @@
   flex-direction: column;
 }
 
+.main-display {
+  flex-grow: 1;
+}
+
 button {
   fill: rgba(0, 0, 0, 0.5);
   color: rgba(0, 0, 0, 0.5);

@@ -13,7 +13,7 @@ const Nav = () => {
     <nav>
       <div className="nav-item">
         <div className="logo-text">
-          <h4>Website</h4>
+          <h4>My Daily Planner</h4>
         </div>
       </div>
 

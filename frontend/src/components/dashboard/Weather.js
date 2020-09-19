@@ -42,7 +42,8 @@ const Weather = () => {
   const search = (evt) => {
     if (evt.key === "Enter" && evt.target.value !== "") {
       axios
-        .post("/weatherAPI", { query: evt.target.value })
+        //https://ffy-my-daily-planner-backend.herokuapp.com/
+        .post("http://localhost:9000/weather", { city: evt.target.value })
         .then(function (response) {
           setWeather(response.data);
           setQuery("");
@@ -52,10 +53,12 @@ const Weather = () => {
   };
 
   const initWeather = () => {
-    axios.post("/weatherAPI", { query: "toronto" }).then(function (response) {
-      setWeather(response.data);
-      console.log(response.data);
-    });
+    axios
+      .post("http://localhost:9000/weather", { city: "toronto" })
+      .then(function (response) {
+        // console.log(response.data);
+        setWeather(response.data);
+      });
   };
 
   useEffect(() => {
