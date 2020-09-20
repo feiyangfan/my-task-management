@@ -9,8 +9,16 @@
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  height: 50%;
+
   justify-content: space-between;
+}
+
+.login-info {
+  padding-bottom: 10rem;
+}
+
+.login-btn {
+  margin-top: 5rem;
 }
 
 h1 {
