@@ -85,3 +85,8 @@ Backend api is deployed on heroku, [link]( https://ffy-my-daily-planner-backend.
 	5. User can now log in with google account, this is accomplished by using passport.js
 	6. Save google id and session id into database for future use.
 	7. Create new User model when a new user logs in with google account, and save the model into mongoDB database
+
+---  
+* **Sept 17 - 19**:
+	1. Create user landing page where they can use google account to login
+	2. Connect backend auth to frontend by using REST end point
