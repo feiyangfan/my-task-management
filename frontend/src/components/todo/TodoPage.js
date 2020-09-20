@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import TodoCard from "./TodoCard";
 import "./TodoPage.css";
-import SubNav from "../SubNav";
+import SubNav from "./SubNav";
 import { v4 as uuidv4 } from "uuid";
 
 // !TODO

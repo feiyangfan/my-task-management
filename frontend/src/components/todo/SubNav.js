@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./SubNav.css";
-import { ReactComponent as Plus } from "../images/plus.svg";
+import { ReactComponent as Plus } from "../../images/plus.svg";
 
 import { Modal } from "@material-ui/core";
 
@@ -50,8 +50,8 @@ const SubNav = ({
           </div>
         );
         return todoModalWindow;
-      case "home":
-        const homeModalWindow = (
+      case "dashboard":
+        const dashboardModalWindow = (
           <div className="modal-window">
             <div className="modal-window-name">
               Add new card, maximum three cards
@@ -75,7 +75,7 @@ const SubNav = ({
             </div>
           </div>
         );
-        return homeModalWindow;
+        return dashboardModalWindow;
     }
   };
 
