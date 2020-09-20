@@ -8,7 +8,8 @@ module.exports = {
   },
   ensureGuest: function (req, res, next) {
     if (req.isAuthenticated()) {
-      res.redirect("/dashboard");
+      console.log("ensureAuth, logged in");
+      res.redirect("/");
     } else {
       return next();
     }
