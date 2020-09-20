@@ -10,8 +10,9 @@ router.get("/", ensureGuest, (req, res) => {
 
 // @desc to dashboard
 // only get this when logged in
-router.get("/dashboard", ensureAuth, async (req, res) => {
+router.get("http://localhost:3000/dashboard", ensureAuth, async (req, res) => {
   // res.render("dashboard", { name: req.user.displayName });
+  console.log("index.js redirect after auth");
   res.send(req.user);
   // try {
   //   const todos = await Todo.find({ user: req.user.id }).lean();
