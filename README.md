@@ -3,6 +3,8 @@
 This is a simple web daily planner app I am trying to make.  I was inspired to make this app because I feel like I need to use multiple apps just for planning out my days, which is a bit inefficient.  
 I will be building frontend with react, backend with express, and connect the app to mongoDB datebase. Also try to deploy the website using a free host. I have no prior web development experiences and will be learning and recording useful things that I learned along the way.
 
+**My goal is that every user has their own data stored in database, and can only be accessed when they log in with their google account.**
+
 
 ## Features
 
