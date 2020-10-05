@@ -18,10 +18,9 @@ Backend api is deployed on heroku, [link]( https://ffy-my-daily-planner-backend.
 
 
 ## What I learned
+Details see READMEs in frontend and backend
 
 
-* **BACKEND**:  
-	1. save important keys and other infomation in .env file and using by installing dotenv package and call require("dotenv").config().
 
 ## Development logs
 
