@@ -18,6 +18,12 @@ Backend api is deployed on heroku, [link]( https://ffy-my-daily-planner-backend.
 
 
 ## What I learned
+
+General:  
+1. Never save API keys or secrets in frontend, it is best to save them as env variables in backend
+2. Use devDependencies to seperate development packages and production packages
+
+Code related:  
 Details see READMEs in frontend and backend
 
 
