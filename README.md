@@ -1,4 +1,5 @@
 ## Project: my daily planner
+As the name suggested.
 
 ## Currently paused because of school work
 
