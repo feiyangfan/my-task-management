@@ -8,7 +8,6 @@ import Login from "./components/login/Login";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
 function App() {
-  //Write Javascript code here
 
   return (
     <div className="App">
