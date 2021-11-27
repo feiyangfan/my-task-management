@@ -17,7 +17,7 @@ I will be building frontend with react, backend with express, and connect the ap
 4. **Timetable**: A timetable that the user can add new events at different timeslots, edit added events, and delete unwanted events.
 
 ## How to use
-Frontend is deployed on netlify, [link](https://ffy-my-daily-planner.netlify.app/), currently being working on so the link might not work  
+Frontend is deployed on netlify, [link](https://ffy-my-daily-planner.netlify.app/), however, frontend is currently being working on so the link might not work  
 Backend api is deployed on heroku, [link]( https://ffy-my-daily-planner-backend.herokuapp.com/), currently does not have a view engine, purely served as an api.
 
 
